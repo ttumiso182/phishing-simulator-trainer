@@ -6,7 +6,20 @@ from datetime import datetime
 import csv
 import os
 
-st.set_page_config(page_title="Phishing Trainer", page_icon="🛡️", layout="centered")
+st.set_page_config(
+    page_title="Phishing Trainer SA",
+    page_icon="🛡️",
+    layout="centered",
+    initial_sidebar_state="expanded"
+)
+
+# Custom CSS for nicer look
+st.markdown("""
+    <style>
+    .stButton>button { width: 100%; }
+    .stRadio>label { font-size: 18px; }
+    </style>
+""", unsafe_allow_html=True)
 
 # ====================== LOAD DATA ======================
 @st.cache_data

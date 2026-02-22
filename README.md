@@ -1,43 +1,32 @@
 # 🛡️ Phishing Simulator - Cyber Awareness Trainer
 
-**A free, interactive Python tool to train yourself (or others) to spot phishing emails using real-world examples from a Kaggle dataset.**
+**Interactive web app to train yourself (and others) to spot real phishing emails.**
 
-Built as part of my post-BICT project portfolio in Mbombela, Mpumalanga.
+Built by Tumiso in Mbombela, Mpumalanga — post-BICT portfolio project.
 
-## Features
-- Real phishing & legitimate emails from 70k+ Kaggle dataset
-- Interactive 8-question quiz with instant feedback
-- Red-flag explanations (urgent language, fake links, etc.)
-- Score history saved automatically
-- Clean coloured terminal interface
-- Menu-driven (quiz or single example)
+### 🌐 **Live Demo**
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://yourusername-phishing-simulator-trainer.streamlit.app)
 
-## How to Run
-1. Clone the repo
-2. `conda activate base` (or your env)
-3. `pip install -r requirements.txt`
-4. `python src/main.py`
+### Features
+- Real 70k+ phishing & legit emails from Kaggle dataset
+- One-question-at-a-time quiz (no more changing questions!)
+- Instant feedback + red-flag explanations
+- Score history with charts
+- Clean, mobile-friendly web interface
 
-## Project Structure
+### How to Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 
-            phishing-simulator-trainer/
-            ├── data/                  # Kaggle CSVs (CEAS_08.csv, Enron.csv, etc.)
-            ├── src/
-            │   └── main.py            # All code (menu + quiz + logging)
-            ├── requirements.txt
-            ├── score_history.csv      # Auto-created after first quiz
-            └── README.md
+        Tech Stack
+        Python • Streamlit • pandas • colorama (terminal version) • Kaggle dataset
+        Future Plans (v2)
 
+        AI-generated phishing emails (Hugging Face)
+        South African scams (SARS, FNB, Capitec, etc.)
+        Certificate of completion (PDF download)
+        Leaderboard
 
-## Future Scalability Ideas (v2+)
-- Add AI-generated phishing emails (Hugging Face)
-- Web dashboard with Streamlit (deploy free on Streamlit Cloud)
-- User accounts & progress tracking
-- Mobile version (convert to .apk with BeeWare)
-- Export training certificates
-- Add South African-specific scams (SARS, FNB, Capitec, etc.)
+        Made with ❤️ in Mpumalanga • February 2026
 
-## License
-MIT License — feel free to use, modify, and share.
-
-Made by Tumiso | February 2026 | Ready for BICT honours or job applications!
