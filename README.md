@@ -5,7 +5,7 @@
 Built by Tumiso in Mbombela, Mpumalanga — post-BICT portfolio project.
 
 ### 🌐 **Live Demo**
-[![Streamlit App](https://ttumiso182-phishing-simulator-trainer-app-gnjpxv.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ttumiso182-phishing-simulator-trainer-app-gnjpxv.streamlit.app)
 
 ### Featuresgit 
 - Real 70k+ phishing & legit emails from Kaggle dataset
@@ -19,10 +19,10 @@ Built by Tumiso in Mbombela, Mpumalanga — post-BICT portfolio project.
 
 ### Future Plans
 
-AI-generated phishing emails (Hugging Face)S
-South African scams (SARS, FNB, Capitec, etc.)
-Certificate of completion (PDF download)
-Leaderboard
+- AI-generated phishing emails (Hugging Face)S
+- South African scams (SARS, FNB, Capitec, etc.)
+- Certificate of completion (PDF download)
+- Leaderboard
 
 ### How to Run Locally
 ```bash
