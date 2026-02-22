@@ -5,7 +5,7 @@
 Built by Tumiso in Mbombela, Mpumalanga — post-BICT portfolio project.
 
 ### 🌐 **Live Demo**
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://yourusername-phishing-simulator-trainer.streamlit.app)
+[![Streamlit App](https://ttumiso182-phishing-simulator-trainer-app-gnjpxv.streamlit.app/)
 
 ### Features
 - Real 70k+ phishing & legit emails from Kaggle dataset
